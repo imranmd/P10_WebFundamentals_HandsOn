@@ -35,5 +35,5 @@ Expectation: This section talks about usage of `semantic HTML section` usage and
 
 ### 06_experience
 
- `Home work to learner here:` Create Experience section by taking reference of image
+ `Hands on to learner here in the end` Create Experience section by taking reference of image experience mock
 
