@@ -1,6 +1,10 @@
 <style>
     /* add CSS styles for navbar, hero, and other sections here */
-    @import url('https://fonts.googleapis.com/css2?family=Sono:wght@200&display=swap');
+    /* @import url('https://fonts.googleapis.com/css2?family=Sono:wght@200&display=swap'); */
+    @font-face {
+      font-family: Sono;
+      src: url(https://fonts.googleapis.com/css2?family=Sono:wght@200&display=swap);
+    }
 
     body {
       font-family: 'Sono', sans-serif;
@@ -43,6 +47,7 @@
 
     h1 {
       margin-bottom: 20px;
+      text-align: center;
     }
 
     p {
@@ -198,19 +203,21 @@
       text-decoration: none;
     }
     
-    /* Tablet */
-@media (max-width: 1023px) {
+/* Mobile */
+@media (min-width: 320px) and (max-width: 767px) {
+  .blog {
+    grid-template-columns: 1fr;
+    grid
+  }
+}
+
+/* Tablet */
+@media (min-width: 768px) and (max-width: 1023px) {
   .blog {
     grid-template-columns: repeat(2, 1fr);
   }
 }
 
-/* Mobile */
-@media (max-width: 767px) {
-  .blog {
-    grid-template-columns: 1fr;
-  }
-}
 
     
   </style>
